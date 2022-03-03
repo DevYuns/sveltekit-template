@@ -23,6 +23,15 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@dooboo/eslint-config-svelte@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@dooboo/eslint-config-svelte/-/eslint-config-svelte-0.0.7.tgz#3a268c077aae2da60ed9f24e94b7befe31adbea7"
+  integrity sha512-dTN/HGMcrBYKNjVdvPa1YsfwfWFPs4it4w/tDzMVyY/yd95fFGw/GcnaM+CCRnFW8i4Zh7E17txTY22MEuXoAw==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.5.0"
+    "@typescript-eslint/parser" "^5.5.0"
+    eslint-plugin-svelte3 "^3.2.1"
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -160,7 +169,7 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@^5.10.1":
+"@typescript-eslint/eslint-plugin@^5.10.1", "@typescript-eslint/eslint-plugin@^5.5.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.13.0.tgz#2809052b85911ced9c54a60dac10e515e9114497"
   integrity sha512-vLktb2Uec81fxm/cfz2Hd6QaWOs8qdmVAZXLdOBX6JFJDhf6oDZpMzZ4/LZ6SFM/5DgDcxIMIvy3F+O9yZBuiQ==
@@ -175,7 +184,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.10.1":
+"@typescript-eslint/parser@^5.10.1", "@typescript-eslint/parser@^5.5.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.13.0.tgz#0394ed8f2f849273c0bf4b811994d177112ced5c"
   integrity sha512-GdrU4GvBE29tm2RqWOM0P5QfCtgCyN4hXICj/X9ibKED16136l9ZpoJvCL5pSKtmJzA+NRDzQ312wWMejCVVfg==
